@@ -8,7 +8,7 @@ namespace Polymorphism
 {
     public class Square : Geometri
     {
-        public double Side { get; set; }
+        public double Side;
         
 
         public Square() 
@@ -20,7 +20,7 @@ namespace Polymorphism
 
         public override double Area() //method to override the method in parent class
         {
-            Console.WriteLine("Square: {0}", Side * Side);           
+            Console.WriteLine("Area Square: {0}cm", Side * Side);           
             return Side * Side;
         }
     }

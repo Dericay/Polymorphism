@@ -9,8 +9,8 @@ namespace Polymorphism
     public class Circle : Geometri
 
     {
-        public double Radius { get; set; }
-        public double Pi {  get; set; }
+        public double Radius;
+        public double Pi;
 
         public Circle() 
         {
@@ -20,7 +20,7 @@ namespace Polymorphism
        
         public override double Area() //method to override the method in parent class
         {
-            Console.WriteLine("Circle: {0}", Radius * Radius * Pi);
+            Console.WriteLine("Area Circle: {0}cm", Radius * Radius * Pi);
             return Radius * Radius * Pi;
             
             

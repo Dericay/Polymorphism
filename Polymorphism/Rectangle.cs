@@ -8,8 +8,8 @@ namespace Polymorphism
 {
     internal class Rectangle : Geometri
     {
-        public double Height { get; set; }
-        public double Base {  get; set; }
+        public double Height;
+        public double Base;
         
 
 
@@ -21,7 +21,7 @@ namespace Polymorphism
 
         public override double Area() //method to override the method in parent class
         {
-            Console.WriteLine("Rectangle: {0}", Height * Base);
+            Console.WriteLine("Area Rectangle: {0}cm", Height * Base);
             return Height * Base;
         }
     }

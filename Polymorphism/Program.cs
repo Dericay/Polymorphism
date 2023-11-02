@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-           Geometri C1 = new Circle();
-           Geometri sq1 = new Square();
-           Geometri r1 = new Rectangle();
+           Geometri circle = new Circle();
+           Geometri square = new Square();
+           Geometri rectangle = new Rectangle();
                      
-            C1.Area();
-            sq1.Area();
-            r1.Area();
+            circle.Area();
+            square.Area();
+            rectangle.Area();
 
             Console.ReadKey();
 
